@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    color:aliceblue
+}
+
+.hedder{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgb(208, 219, 219, 0.7);
+    display: flex;
+    justify-content: space-between;
+}
+
+.hedder a{
+    text-decoration: none;
+    width: 170px;
+    height: 34px;
+
+}
+.hedder_group1 {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    
+}
+.hedder_group1 img{
+    width: 70px;
+        height: 100%;
+    margin-right: 34px;
+    border-radius: 50%;
+    margin-left: 5vw;
+}
+.hedder_group1 a{
+    height: 34px;
+}
+.hedder_group2 {
+    display: flex;
+    align-items: center;
+}
+.hedder_group2 div{
+    margin-right: 5vw;
+}
+
+.menu_button {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 34px;
+    border-radius: 8px;
+    background: rgb(130, 137, 137, 0.7);
+}
+.menu_button:hover {
+    box-shadow: inset 0px 0px 5px 2px #4e5858;
+}
+.menu_button a{
+    position: relative;
+    top: 8px;
+    padding: 0px 8px 0px 8px;
+}
+
+.magazin_content{
+    width: 100%;
+}
+
+.magazine_page_content {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 5vw;
+    width: 90%; 
+    height: 90vh;
+}
+.Content_Box p {
+    max-width: 15vw;
+}
+
+.Content_Box img {
+    width: 15vw;
+}
+
+.Content_Box {
+    background: rgb(130, 137, 137, 0.7);
+    border-radius: 28px;
+    padding: 20px;
+}
+.Content_Box div{
+    background: rgba(233, 237, 237, 0.7);
+    border-radius: 8px;
+    padding: 8px 8px 8px 8px;
+}
+
+.footer {
+    height: 48px;
+    background: rgb(208, 219, 219, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.footer a{
+    text-decoration: none;
+}
